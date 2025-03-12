@@ -1,0 +1,9 @@
+function pow(x=2, y=3) {
+let result = 1;
+
+for (let i = 0; i < y; i++) {
+result *= x;
+}
+
+console.log(result);
+}
