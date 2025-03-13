@@ -1,9 +1,11 @@
-function pow(x=2, y=3) {
-let result = 1;
+function pow(x, y) {
+    let result = 1;  
+    
+    for (let i = 0; i < y; i++) 
+    {
+    result *= x;
 
-for (let i = 0; i < y; i++) {
-result *= x;
+    }
+    return result;
 }
-
-console.log(result);
-}
+    console.log(pow(2,6));
